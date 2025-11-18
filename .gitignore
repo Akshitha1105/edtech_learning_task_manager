@@ -1,0 +1,92 @@
+# ------------------------------------------------------
+# NODE + SERVER
+# ------------------------------------------------------
+
+# Node modules
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Environment variables
+.env
+server/.env
+client/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# PM2 logs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Dist / Build outputs
+dist/
+build/
+server/dist/
+client/dist/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Cache
+.cache/
+.v_cache/
+vite.cache/
+server/.vite/
+client/.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------------------------------------
+# REACT + VITE
+# ------------------------------------------------------
+
+# Local environment + output
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+
+# Vite build artifacts
+client/node_modules/
+client/dist/
+client/.vite/
+
+# ------------------------------------------------------
+# MISC
+# ------------------------------------------------------
+
+# Local database dumps
+*.sql
+*.sqlite
+*.db
+
+# Uploaded files (if any)
+uploads/
+public/uploads/
+
+# Lock files (optional, if you regenerate a lot)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
